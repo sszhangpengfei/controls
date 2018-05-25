@@ -5,11 +5,14 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
 
+import demo.controls.zpf.com.library.CustomSeekBar;
 import demo.controls.zpf.com.library.MultiStateToggleButton;
 
 public class MainActivity extends AppCompatActivity {
 
     private MultiStateToggleButton toggle_btn,toggle_btn1;
+
+    private CustomSeekBar seekbar_brightness;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,5 +38,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,btn.getText(),Toast.LENGTH_SHORT).show();
             }
         });
+
+        seekbar_brightness = (CustomSeekBar)findViewById(R.id.seekbar_brightness);
+        seekbar_brightness.setImgBg(R.mipmap.brightness);
+        seekbar_brightness.setSeekValuePercent(0.7f);
     }
 }

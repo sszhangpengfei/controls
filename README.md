@@ -3,5 +3,9 @@
 
 MultiToggleButton:
 
-![Alt text](https://github.com/sszhangpengfei/controls/blob/master/app/src/main/res/mipmap-xhdpi/MultiToggleButton.png)
+![Alt text](https://github.com/sszhangpengfei/controls/blob/master/app/src/main/res/mipmap-xhdpi/a.png)
+
+CustomSeekBar:
+
+![Alt text](https://github.com/sszhangpengfei/controls/blob/master/app/src/main/res/mipmap-xhdpi/b.png)
 

@@ -18,4 +18,12 @@
         android:layout_below="@+id/toggle_btn"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="20dp"></demo.controls.zpf.com.library.MultiStateToggleButton>
+
+    <demo.controls.zpf.com.library.CustomSeekBar
+        android:id="@+id/seekbar_brightness"
+        android:layout_width="142px"
+        android:layout_height="61px"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/toggle_btn1"/>
 </RelativeLayout>
