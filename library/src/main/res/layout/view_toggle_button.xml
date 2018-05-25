@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@android:color/transparent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/toggle_btn"
+        android:layout_width="56px"
+        android:layout_height="56px"
+        android:textSize="14px"
+        android:gravity="center"
+        android:layout_margin="2px"/>
+</RelativeLayout>
+
+
